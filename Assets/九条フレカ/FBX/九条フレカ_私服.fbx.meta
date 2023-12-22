@@ -262,7 +262,7 @@ ModelImporter:
     - boneName: Neck
       humanName: Neck
       limit:
-        min: {x: -40, y: -40, z: 0}
+        min: {x: -40, y: -40, z: -40}
         max: {x: 40, y: 40, z: 40}
         value: {x: 0, y: 0, z: 0}
         length: 0
@@ -270,7 +270,7 @@ ModelImporter:
     - boneName: Head
       humanName: Head
       limit:
-        min: {x: -40, y: -40, z: 0}
+        min: {x: -40, y: -40, z: -40}
         max: {x: 40, y: 40, z: 40}
         value: {x: 0, y: 0, z: 0}
         length: 0
@@ -278,8 +278,8 @@ ModelImporter:
     - boneName: Shoulder_L
       humanName: LeftShoulder
       limit:
-        min: {x: 0, y: -40, z: -40}
-        max: {x: 0, y: 40, z: 40}
+        min: {x: 0, y: -90, z: -40}
+        max: {x: 0, y: 0, z: 40}
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 1

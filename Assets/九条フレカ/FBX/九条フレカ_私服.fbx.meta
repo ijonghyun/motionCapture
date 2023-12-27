@@ -278,19 +278,19 @@ ModelImporter:
     - boneName: Shoulder_L
       humanName: LeftShoulder
       limit:
-        min: {x: 0, y: -90, z: -40}
-        max: {x: 0, y: 0, z: 40}
+        min: {x: 0, y: -50, z: 0}
+        max: {x: 0, y: 50, z: 15}
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 1
     - boneName: Shoulder_R
       humanName: RightShoulder
       limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
+        min: {x: 0, y: -15, z: -60}
+        max: {x: 0, y: 15, z: 60}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: Arm_L
       humanName: LeftUpperArm
       limit:
